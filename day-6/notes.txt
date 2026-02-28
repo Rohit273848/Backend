@@ -1,0 +1,1 @@
+Types of Server: Web Server , database Server ,file Server , email Server and application Server.
