@@ -14,7 +14,7 @@ function App() {
     const { title, description } = e.target.elements;
     console.log(title.value, description.value);
 
-    axios.post('https://backend-two-jet-85.vercel.appapi/notes', {
+    axios.post('https://backend-two-jet-85.vercel.app/api/notes', {
       title: title.value,
       description: description.value
     }).then(res => {
